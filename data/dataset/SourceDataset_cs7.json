@@ -1,0 +1,17 @@
+{
+	"name": "SourceDataset_cs7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStore2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureDataLakeStoreLocation",
+				"fileName": "salesUK.txt"
+			}
+		}
+	}
+}
